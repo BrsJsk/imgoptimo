@@ -13,7 +13,7 @@
   "keywords": ["image optimize", "imgoptim", "optimizee", "sharp", "imagemin"],
   "author": "Boris Joskic",
   "license": "MIT",
-  "homepage": "https://github.com/BrsJsk/imgoptim",
+  "homepage": "https://github.com/BrsJsk/imgoptimo",
   "dependencies": {
     "chalk": "^4.1.0",
     "copy-dir": "^1.3.0",

@@ -108,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597750068683</updated>
       <workItem from="1597750069797" duration="4018000" />
-      <workItem from="1597755040468" duration="2670000" />
+      <workItem from="1597755040468" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <created>1597755156629</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597757213740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="imgoptim">
+      <created>1597757740731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597757740731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="Logger" />
     <MESSAGE value="Spinner" />
     <MESSAGE value="Spinner and yargs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spinner and yargs" />
+    <MESSAGE value="imgoptim" />
+    <option name="LAST_COMMIT_MESSAGE" value="imgoptim" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1506" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597750642485">
@@ -191,10 +199,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="165" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597756510611" />
-    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1597757215486">
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1597757744182">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757215486" />
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757744182" />
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597757263666">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
