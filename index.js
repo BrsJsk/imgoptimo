@@ -1,5 +1,6 @@
 const fs = require('fs')
-const { logInfo } = require("./src/logger");
+const { startSpinner, stopSpinner } = require('./src/progress')
+const { logInfo, logError } = require('./src/logger')
 const { folders } = require('./config.json')
 const { minifyFile } = require('./src/file')
 
@@ -16,10 +17,15 @@ folders.forEach((item) => {
 
 const filesToMinify = folders.map((folder) => minifyFile(folder))
 
-logInfo('Minifying..');
+logInfo('Minifying..')
+startSpinner('Minifying...')
 
 Promise.all(filesToMinify)
     .then(() => {
-        console.log('done')
+        logInfo('Finished minifying..')
+        stopSpinner()
     })
-    .catch((err) => console.log(err))
+    .catch((err) => {
+        logError(err)
+        stopSpinner()
+    })

@@ -1,6 +1,6 @@
 const fs = require('fs')
-const { logError, logInfo } = require('./logger')
-const { CP_DIRECTORY, IMAGES_MINIFIED_DIR } = require('./constants')
+const { logError, logInfo } = require('../logger')
+const { CP_DIRECTORY, IMAGES_MINIFIED_DIR } = require('../constants')
 
 // delete directory recursively
 fs.rmdir(CP_DIRECTORY, { recursive: true }, (err) => {
