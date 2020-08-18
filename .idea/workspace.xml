@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b930ba07-657f-4ab1-8438-663093d4fd23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597750068683</updated>
       <workItem from="1597750069797" duration="4018000" />
-      <workItem from="1597755040468" duration="2022000" />
+      <workItem from="1597755040468" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="Initial code">
       <created>1597755156629</created>
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597756444209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spinner and yargs">
+      <created>1597757213740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597757213740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +159,8 @@
     <MESSAGE value="Initial code" />
     <MESSAGE value="Logger" />
     <MESSAGE value="Spinner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spinner" />
+    <MESSAGE value="Spinner and yargs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spinner and yargs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1506" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597750642485">
@@ -165,33 +171,33 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="287" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597750629978" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1597757010897">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1597757172289">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757010897" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1597757010897">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757172289" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1597757172288">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757010897" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1597757010897">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757172288" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1597757172288">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757010897" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1597757010897">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757172288" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1597757172288">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757010897" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757172288" />
     <state x="-1459" y="165" key="SettingsEditor" timestamp="1597756510611">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="165" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597756510611" />
-    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1597755892156">
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1597757215486">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597755892156" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597756703966">
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757215486" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597757263666">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597756703966" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597757263666" />
   </component>
 </project>
