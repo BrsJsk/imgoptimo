@@ -1,4 +1,5 @@
 const fs = require('fs')
+const { logInfo } = require("./src/logger");
 const { folders } = require('./config.json')
 const { minifyFile } = require('./src/file')
 
@@ -14,7 +15,9 @@ folders.forEach((item) => {
 })
 
 const filesToMinify = folders.map((folder) => minifyFile(folder))
-console.log('starting')
+
+logInfo('Minifying..');
+
 Promise.all(filesToMinify)
     .then(() => {
         console.log('done')
