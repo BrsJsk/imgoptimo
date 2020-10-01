@@ -11,6 +11,8 @@ npm install
 npm link
 ```
 
+Create a config.json file in root. Example config file is config.example.js.
+
 ## NPM
 ```
 Soon...

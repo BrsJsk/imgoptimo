@@ -120,3 +120,5 @@ dist
 /cp_directory/
 /minified/
 /config.json
+
+/.idea
