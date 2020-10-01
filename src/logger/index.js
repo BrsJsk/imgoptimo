@@ -18,10 +18,20 @@ const logger = winston.createLogger({
     ],
 })
 
+/**
+ * Logs info message
+ *
+ * @param {string} message
+ */
 const logInfo = (message) => {
     logger.info(message)
 }
 
+/**
+ * Logs error message
+ *
+ * @param {string} message
+ */
 const logError = (message) => {
     logger.error(message)
 }

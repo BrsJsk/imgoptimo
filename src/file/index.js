@@ -3,6 +3,12 @@ const imageminJpegoptim = require('imagemin-jpegoptim')
 const imageminPngquant = require('imagemin-pngquant')
 const { CP_DIRECTORY, IMAGES_MINIFIED_DIR } = require('../constants')
 
+/**
+ * Minifies a file
+ *
+ * @param folder
+ * @returns {Promise<unknown[]>}
+ */
 const minifyFile = (folder) =>
     imagemin([`${CP_DIRECTORY}/${folder.name}/*.{jpg,png}`], {
         destination: `${IMAGES_MINIFIED_DIR}/${folder.name}`,
