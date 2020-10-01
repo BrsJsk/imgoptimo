@@ -1,5 +1,5 @@
 const fs = require('fs')
-const open = require('open');
+const open = require('open')
 
 const { startSpinner, stopSpinner } = require('../progress')
 const { logInfo, logError } = require('../logger')
@@ -18,7 +18,10 @@ const minifyFiles = (openFolder) => {
         copyFolderSync(item.name, item.dir)
     })
 
-    const filesToMinify = [...folders.map((folder) => minifyFile(folder)), openFolder ? open(IMAGES_MINIFIED_DIR, {wait: true}) : Promise.resolve()]
+    const filesToMinify = [
+        ...folders.map((folder) => minifyFile(folder)),
+        openFolder ? open(IMAGES_MINIFIED_DIR, { wait: true }) : Promise.resolve(),
+    ]
 
     logInfo('Minifying..')
     startSpinner('Minifying...')
